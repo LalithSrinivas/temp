@@ -36,7 +36,33 @@ sqlMacros:
     - macros/generate_schema_name.sql
     - .prophecy/ide/macros/generate_schema_name.json
     createdAt: '2026-10-28 08:45:29'
-sqlSeeds: {}
+sqlSeeds:
+  .prophecy/metadata/sqlseeds/seed1:
+    name: seed1
+    schema:
+      entityType: ''
+      providerType: Databricks
+      fields:
+      - name: city
+        dataType:
+          type: String
+      - name: avg_temp
+        dataType:
+          type: Bigint
+      - name: humidity
+        dataType:
+          type: Bigint
+      - name: green_cover_percent
+        dataType:
+          type: Bigint
+      - name: water_availability_score
+        dataType:
+          type: Bigint
+    description: null
+    author: pal.shubhraneel+m3@prophecy.io
+    files:
+    - seeds/seed1.csv
+    createdAt: '2026-10-28 09:00:59'
 sqlSources: {}
 sqlUnreferencedSources: {}
 sqlPipeline:

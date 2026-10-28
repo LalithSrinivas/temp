@@ -1,0 +1,6 @@
+city,avg_temp,humidity,green_cover_percent,water_availability_score
+delhi,32,55,20,6
+mumbai,30,75,18,7
+bangalore,26,60,35,8
+pune,28,58,30,8
+indore,29,50,25,7
